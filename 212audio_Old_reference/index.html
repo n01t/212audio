@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>212 Audio</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="top-line">
+    <div class="brand-wrap">
+      <img src="assets/212audio-logo-reference.jpg" class="logo" alt="212 Audio">
+    </div>
+    <div class="clock" id="clock">10:44:25 PM</div>
+    <button class="webcall-top" onclick="location.hash='webcall'">Join program via WebCall</button>
+  </div>
+  <div class="info-line">
+    <div class="episode"><b>NO EPISODE SET</b><small>00:00:00</small></div>
+    <div class="dial-number">Dial-in-Number: <b>212-290-0000</b></div>
+  </div>
+  <nav class="nav">
+    <a href="#home">Home</a>
+    <a href="#broadcast">Broadcast⌄</a>
+    <a href="#podcast">Podcast⌄</a>
+    <a href="#dashboard">Dashboard</a>
+    <a href="#create">Create</a>
+    <a href="#episodes">Episodes</a>
+    <a href="#stats">Stats</a>
+    <a href="#effects">Studio Effects</a>
+    <a href="#clips">Advertising Clips</a>
+    <a href="#board">Switch Board</a>
+    <a href="#settings">Settings</a>
+    <a href="#pricing">Pricing</a>
+    <a href="#promote">Promote</a>
+    <button>Login / Signup</button>
+  </nav>
+</header>
+
+<main id="home">
+  <section class="hero">
+    <div class="hero-promo">
+      <div class="promo-copy">
+        <h1>Broadcast Live Radio and Talk<br>in real time with your listeners.</h1>
+        <button onclick="location.hash='broadcast'">START NOW</button>
+      </div>
+    </div>
+    <div class="video-panel">
+      <div class="video-placeholder"><span>▶</span></div>
+      <div class="video-controls"><span>0:00</span><span>⌁</span><span>⛶</span><span>⋮</span></div>
+    </div>
+  </section>
+
+  <section class="featured">
+    <div class="section-head"><h2>Featured Listings</h2><a href="#listings">See All »</a></div>
+    <div id="cards" class="cards"></div>
+  </section>
+
+  <footer>
+    <div class="footer-cols">
+      <div><h3>Contact Us</h3><p>+1 (212) 671-0540</p><p>Support@unavo.xyz</p><p>USA</p><div class="social">● ● ▶ ♪ ● ●</div></div>
+      <div><h3>Quick Links</h3><p>About US</p><p>Terms & condition of use</p><p>Privacy Policy</p><p>Faq</p></div>
+      <div><h3>Quick Links</h3><p>Contact Us</p><p>Blog and News</p><p>Sitemap</p></div>
+    </div>
+    <div class="copyright">Copyright © 2026. All Right Reserved.</div>
+  </footer>
+</main>
+
+<section id="webcall" class="page">
+  <h1>WebCall</h1><p>Join program via WebCall</p>
+  <div class="webcall-box"><input placeholder="Name"><input placeholder="Email"><input placeholder="Phone Number"><button>Call</button></div>
+</section>
+
+<section id="broadcast" class="page">
+  <h1>Broadcast Live</h1><p>Start your live radio or talk program.</p>
+  <div class="form-box"><input placeholder="Program Name"><input placeholder="Program ID"><textarea placeholder="Description"></textarea><button>Continue</button></div>
+</section>
+
+<script src="app.js"></script>
+</body>
+</html>
